@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">CoEpi</string>
+    <string name="privacy_link"><a href="https://www.coepi.org/privacy/">How is my data being used?</a></string>
+
+    <!-- common -->
+    <string name="days">days</string>
+    <string name="unknown">I don\'t know</string>
+    <string name="submit">Submit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Tabs container -->
+    <string name="tab_container_debug">Debug</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_symptoms">Symptoms</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_ble">BLE</string>
+    <string name="tab_location">Location</string>
+
+    <!-- Fragment labels -->
+    <string name="label_fragment_home">Home</string>
+    <string name="label_fragment_settings">Settings</string>
+    <string name="label_fragment_ble">BLE</string>
+    <string name="label_fragment_location">Location</string>
+    <string name="label_fragment_onboarding">Onboarding</string>
+    <string name="label_fragment_alerts">Alerts</string>
+    <string name="label_fragment_alerts_details">Alerts details</string>
+    <string name="label_fragment_symptoms">Symptom Report</string>
+    <string name="label_fragment_api">API</string>
+
+    <!-- Symptoms -->
+    <string name="symptoms_headline">What symptoms do you have today?</string>
+    <string name="symptoms_caption">Select all that apply</string>
+    <string name="symptoms_select_one">Select one option</string>
+    <string name="symptoms_skip_button">Skip</string>
+    <string name="symptoms_submit_button">@string/submit</string>
+    <string name="symptoms_success_message">Symptoms submitted!</string>
+
+    <!-- Thank you -->
+    <string name="thanks_message">Thank you for saving your symptoms! We will keep notified about exposures this week.</string>
+    <string name="thanks_log_button">Log more symptoms</string>
+    <string name="thanks_exposures_button">View exposures</string>
+    <string name="thanks_home_button">Return to home screen</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">CoEpi</string>
+    <string name="onboarding_cta">GET STARTED</string>
+    <string name="onboarding_tagline">Collaborate. Inform. Protect.</string>
+    <string name="onboarding_link">@string/privacy_link</string>
+    <string name="onboarding_banner_1"><b>Track</b> where you\'ve been</string>
+    <string name="onboarding_banner_2"><b>Monitor</b> your health</string>
+    <string name="onboarding_banner_3">Get <b>contextualized alerts</b> about possible exposure to infectious illness</string>
+
+    <!-- Home -->
+    <string name="home_my_health_card_title">My Symptom Report</string>
+    <string name="home_contact_alerts_card_title">Exposure Alerts</string>
+    <string name="home_my_health_card_description">Track how you are feeling</string>
+    <string name="home_contact_alerts_card_description">Find out reported alerts around you</string>
+    <string name="home_version">Version: %s</string>
+    <string name="home_privacy_link_text">How is my data being used?</string>
+    <plurals name="home_new_exposure_alert">
+        <item quantity="one">%s new exposure detected</item>
+        <item quantity="other">%s new exposures detected</item>
+    </plurals>
+
+    <!-- Alerts -->
+    <string name="alerts_button_acknowledge">Acknowledge</string>
+    <plurals name="alerts_new_notifications_count">
+        <item quantity="one">%s new contact alert</item>
+        <item quantity="other">%s new contact alerts</item>
+    </plurals>
+    <string name="alerts_no_symptoms_reported">No symptoms reported</string>
+
+    <!-- Alert details -->
+    <!-- TODO clarify whether this is needed -->
+    <string name="alerts_details_title">Details</string>
+
+    <!-- Infection contact notifications -->
+    <string name="infection_notification_title">Exposure</string>
+<!--    <string name="infection_notification_text">You were exposed to the virus. Click to see reports.</string>-->
+    <string name="infection_notification_channel_name">Exposures</string>
+    <string name="infection_notification_channel_description">Detected virus exposures</string>
+
+    <!-- Symptom Report - Cough Type -->
+    <string name="symptom_report_cough_title">Follow up: Cough</string>
+    <string name="symptom_report_cough_type_headline">I would describe my cough as:</string>
+    <string name="symptom_report_cough_type_wet">Wet</string>
+    <string name="symptom_report_cough_type_dry">Dry</string>
+    <string name="symptom_report_cough_type_wet_description">It feels like there is mucus in my throat and\/or chest</string>
+    <string name="symptom_report_cough_type_dry_description">My throat feels \'tickly\' or \'scratchy\' without mucus</string>
+
+    <!-- Symptom Report - Cough Duration -->
+    <string name="symptom_report_cough_duration_headline">How many days have you been coughing?</string>
+    <string name="symptom_report_cough_duration_days">@string/days</string>
+    <string name="symptom_report_cough_duration_unknown">@string/unknown</string>
+
+    <!-- Symptom Report - Cough Status -->
+    <string name="symptom_report_cough_status_headline">Today my cough has:</string>
+    <string name="symptom_report_cough_status_option_better_worse_day">Felt better and worse throughout the day</string>
+    <string name="symptom_report_cough_status_option_worse_outside">Felt worse when I am outside</string>
+    <string name="symptom_report_cough_status_option_same_or_steadily_worse">Stayed the same or felt steadily worse</string>
+
+    <!-- Symptom Report - Breathlessness Cause -->
+    <string name="symptom_report_breathlessness_cause_title">Follow up: Breathlessness</string>
+    <string name="symptom_report_breathlessness_cause_headline">I feel breathless when:</string>
+    <string name="symptom_report_breathlessness_cause_option_leaving_house_or_dressing">I am too breathless to leave the house or I am breathless when dressing</string>
+    <string name="symptom_report_breathlessness_cause_option_walking_yards_or_mins_on_ground">I stop for breath after walking about 100 yards or after a few minutes on level ground</string>
+    <string name="symptom_report_breathlessness_cause_option_ground_own_pace">On level ground, I have to stop for breath when walking at my own pace</string>
+    <string name="symptom_report_breathlessness_cause_option_hurry_or_hill">I get short of breath when hurrying on level ground or walking up a slight hill</string>
+    <string name="symptom_report_breathlessness_cause_option_exercise">I only get breathless with strenuous exercise</string>
+
+    <!-- Symptom Report - Fever -->
+    <string name="symptom_report_fever_title">Follow up: Fever</string>
+
+    <string name="symptom_report_fever_duration_headline">How many days have you had a fever?</string>
+    <string name="symptom_report_fever_duration_days">@string/days</string>
+    <string name="symptom_report_fever_duration_unknown">@string/unknown</string>
+    <string name="symptom_report_fever_duration_submit">@string/submit</string>
+
+    <string name="symptom_report_fever_taken_today_headline">Have you taken your temperature today?</string>
+    <string name="symptom_report_fever_taken_today_yes">@string/yes</string>
+    <string name="symptom_report_fever_taken_today_no">@string/no</string>
+
+    <string name="symptom_report_fever_highest_temperature_headline">What was the highest temperature reading today?</string>
+    <string name="symptom_report_fever_highest_temperature_unit_f">\u2109</string>
+    <string name="symptom_report_fever_highest_temperature_unit_C">\u2103</string>
+    <string name="symptom_report_fever_highest_temperature_unknown">@string/unknown</string>
+    <string name="symptom_report_fever_highest_temperature_submit">@string/submit</string>
+
+    <string name="symptom_report_fever_temperature_spot_headline">Where did you take your temperature most recently?</string>
+    <string name="symptom_report_fever_temperature_spot_mouth">Mouth</string>
+    <string name="symptom_report_fever_temperature_spot_ear">Ear</string>
+    <string name="symptom_report_fever_temperature_spot_armpit">Armpit</string>
+    <string name="symptom_report_fever_temperature_spot_other">Other</string>
+
+    <string name="symptom_report_fever_temperature_spot_input_headline">Where did you take your temperature?</string>
+    <string name="symptom_report_fever_temperature_spot_input_unknown">@string/unknown</string>
+    <string name="symptom_report_fever_temperature_spot_input_submit">@string/submit</string>
+
+    <!-- Symptom Report - Earliest Symptoms -->
+    <string name="symptom_report_earliest_symptom_title">Follow up: Earliest Symptoms</string>
+    <string name="symptom_report_earliest_symptom_headline">How many days ago did the symptoms begin?</string>
+    <string name="symptom_report_earliest_symptom_days">@string/days</string>
+    <string name="symptom_report_earliest_symptom_unknown">@string/unknown</string>
+
+
+</resources>
